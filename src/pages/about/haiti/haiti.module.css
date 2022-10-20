@@ -1,0 +1,172 @@
+.general {
+    background-image: url("../../../../public/static/haitipic.png");
+    margin: 0;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.centerText {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20%;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 85px;
+    line-height: 100px;
+
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.space {
+    padding: 3%;
+}
+
+div.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    grid-template-rows: 1fr;
+    width: 90%;
+    gap: 0px 50px;
+    grid-template-areas:
+      ". .";
+}
+div.mobileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.description {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.mobileDescription {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.gridImage {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+}
+.mobileImage {
+    width: 90%;
+}
+
+.gridText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: calc(16px + 1vw);
+    /* or 187% */
+    color: #000000;
+}
+
+
+.background {
+    background-image: url("../../../../public/static/HaitiImage2.png");
+    margin: 0;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.dubedou {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 45px;
+    /* or 173% */
+    color: #2A2D39;
+
+}
+
+.haiti {
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(20px + 2vw);
+    line-height: 45px;
+    /* or 173% */
+    color: #03AB99;
+
+}
+
+h1.donateText {
+    left: 2.08%;
+    right: 56.25%;
+    top: 62.7%;
+    bottom: 34.58%;
+    padding-left: 100px;
+    padding-top: 350px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    /* or 158% */
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 4px 0px 5px rgba(150, 150, 150, 0.53);
+  }
+  
+  h1.donateTextMobile {
+    left: 2.08%;
+    right: 56.25%;
+    top: 62.7%;
+    bottom: 34.58%;
+    padding-top: 350px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: auto;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 4px 0px 5px rgba(150, 150, 150, 0.53);
+  }
+  
+  button.donateButton {
+    background: #03AB99;
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  button.donateButton:hover {
+    text-align: center;
+    border-color: #FFFFFF;
+    color: #03AB99;
+    background: #FFFFFF;
+  }
+.buttonDiv {
+    padding-top: 350;
+    padding-left: 230px; 
+}

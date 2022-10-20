@@ -1,0 +1,15 @@
+.picture {
+  min-width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .picture {
+    max-height: 775px;
+  }
+} 
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
